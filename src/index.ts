@@ -8,7 +8,7 @@ function run() {
   reader.setInsertCardDelay(1000) 
   // if run on macOS you can remove function setReadTimeout below
   // if you run on windows and it stuck. didn't get any data. try to increase timeout value
-  reader.setReadTimeout(10) 
+  // reader.setReadTimeout(10) 
   reader.onReadComplete((data) => {
     console.log(data)
   })

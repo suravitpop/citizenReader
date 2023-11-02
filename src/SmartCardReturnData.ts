@@ -9,7 +9,7 @@ export interface SmartCardReturnData {
   lastNameTH: string
   lastNameEN: string
   dateOfBirth: string
-  gender: "male" | "female"
+  gender: "ชาย" | "หญิง"
   cardIssuer: string
   issueDate: string
   expireDate: string

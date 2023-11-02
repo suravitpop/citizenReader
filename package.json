@@ -28,7 +28,7 @@
     "legacy-encoding": "^3.0.0",
     "moment": "^2.29.4",
     "pcsclite": "^1.0.1",
-    "thai-id-card-reader": "^1.0.42"
+    "thai-id-card-reader": "^1.0.51"
   },
   "description": ""
 }

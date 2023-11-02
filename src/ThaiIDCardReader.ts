@@ -32,7 +32,7 @@ export default class ThaiIDCardReader {
         firstNameTH : removeJunk( data.fullNameTH.split('#')[1]),
         lastNameTH : removeJunk( data.fullNameTH.split('#')[3]),
         dateOfBirth: data.dateOfBirth,
-        gender: ((data as any).gender === '1') ?  'male' : 'female',
+        gender: ((data as any).gender === '1') ?  'ชาย' : 'หญิง',
         cardIssuer: removeJunk(data.cardIssuer),
         issueDate: removeJunk(data.issueDate),
         expireDate: removeJunk(data.expireDate),
